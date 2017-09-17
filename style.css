@@ -50,9 +50,14 @@
 .cubes>p {
     position: absolute;
     margin-top: 150px;
-
 }
-.cubes>img {
+.topRow>img {
     position: absolute;
     margin-top: 47px;
+    margin-left: -40px;
+}
+.bottomRow>img {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -40px;
 }
