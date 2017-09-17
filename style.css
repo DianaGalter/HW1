@@ -1,8 +1,7 @@
 .wrapper {
     width: 800px;
     height: 600px;
-    /*background-image: url(img/background.png);*/
-    background-image: url(templates/Cubes.png);
+    background-image: url(img/background.png);
 }
 .widget {
     width: 615px;
@@ -22,7 +21,7 @@
     text-align: center;
     overflow: hidden;
 }
-/*.cubes:nth-child(1) {
+.cubes:nth-child(1) {
     background-color: rgb(0, 192, 226);
 }
 .cubes:nth-child(2) {
@@ -39,13 +38,13 @@
 }
 .cubes:nth-child(6) {
     background-color: rgb(203, 112, 214);
-}*/
+}
 .weekForecast {
     width: 205px;
     height: 100px;
     position: absolute;
     top: 310px;
-    /*background-color: rgb(203, 76, 108);*/
+    background-color: rgb(203, 76, 108);
 }
 .cubes>p {
     position: absolute;
@@ -67,7 +66,7 @@
     width: 205px;
     height: 100px;
     bottom: 0px;
-    /*background-color: rgb(203, 76, 108);*/
+    background-color: rgb(203, 76, 108);
 }
 
 .weekForecast ul{
