@@ -10,12 +10,11 @@
     position: relative;
     top: 95px;
     left: 92px;
-    font-size: 0;
 }
 .cubes {
     width: 205px;
     height: 205px;
-    position: relative;
+    float: left;
     font-size: 12pt;
     color: white;
     font-family: 'Avenir Next Bold', 'Montserrat Semi Bold',sans-serif;
@@ -42,17 +41,18 @@
     background-color: rgb(203, 112, 214);
 }
 .weekForecast {
+    width: 205px;
+    height: 100px;
+    position: absolute;
+    top: 310px;
     background-color: rgb(203, 76, 108);
 }
 .cubes>p {
     position: absolute;
     margin-top: 150px;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+
 }
 .cubes>img {
     position: absolute;
     margin-top: 47px;
-    padding: 0;
 }
