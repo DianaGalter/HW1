@@ -49,6 +49,7 @@
 }
 .cubes>p {
     position: absolute;
+    width: 205px;
     margin-top: 150px;
 }
 .topRow>img {
@@ -62,7 +63,7 @@
     margin-left: -40px;
 }
 .weekForecast li {
-    font-size: 8pt;
+    font-size: 9pt;
     display: inline-block;
     float: left;
 }
