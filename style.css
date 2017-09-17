@@ -62,12 +62,35 @@
     margin-top: 40px;
     margin-left: -40px;
 }
+.weekForecast {
+    position: absolute;
+    width: 205px;
+    height: 100px;
+    bottom: 0px;
+    background-color: rgb(203, 76, 108);
+}
+
+.weekForecast ul{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
 .weekForecast li {
     font-size: 9pt;
     display: inline-block;
-    float: left;
+    position: relative;
 }
 .weekForecast li img {
     width: 25px;
     height: 22px;
+}
+.weekForecast li p {
+    margin-left: 12px;
+}
+#currentWeather img {
+    position: relative;
+    top: 25px;
 }
