@@ -57,12 +57,17 @@
 .cubes>p {
     position: absolute;
     width: 205px;
-    margin-top: 150px;
 }
 .topRow>img {
     position: absolute;
     margin-top: 47px;
     margin-left: -40px;
+}
+.topRow>p{
+    margin-top: 147px;
+}
+.bottomRow>p {
+    margin-top: 152px;
 }
 .bottomRow>img {
     position: absolute;
@@ -79,7 +84,7 @@
 
 .weekForecast ul{
     position: relative;
-    padding: 5px 0px;
+    padding: 7px 0px;
     margin: 0px 20px;
     width: 80%;
     list-style-type: none;
@@ -93,8 +98,12 @@
     position: relative;
 }
 .weekForecast li img {
+    margin-top: -2px;
     width: 25px;
     height: 22px;
+}
+.weekForecast li img~p {
+    margin-top: 3px;
 }
 #currentWeather img {
     position: relative;
