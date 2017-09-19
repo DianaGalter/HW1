@@ -49,6 +49,10 @@
     position: absolute;
     top: 310px;
     background-color: rgb(203, 76, 108);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(155,59,75,0) 1%, rgba(156,60,79,0) 27%, rgba(160,61,89,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(155,59,75,0) 1%,rgba(156,60,79,0) 27%,rgba(160,61,89,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(155,59,75,0) 1%,rgba(156,60,79,0) 27%,rgba(160,61,89,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009b3b4b', endColorstr='#a6a03d59',GradientType=1 );
 }
 .cubes>p {
     position: absolute;
