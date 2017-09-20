@@ -25,6 +25,27 @@
     text-align: center;
     overflow: hidden;
 }
+.iconCloud {
+    background-image: url(icons/cloud.png)
+}
+.iconFog {
+    background-image: url(icons/fog.png)
+}
+.iconGusty {
+    background-image: url(icons/gusty.png)
+}
+.iconPatchySnow {
+    background-image: url(icons/patchySnow.png)
+}
+.iconRainy {
+    background-image: url(icons/rainy.png)
+}
+.iconSunnySpells {
+    background-image: url(icons/sunnySpells.png)
+}
+.iconMini {
+
+}
 .cubes:nth-child(1) {
     background-color: rgb(0, 192, 226);
 }
