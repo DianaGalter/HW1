@@ -1,9 +1,15 @@
+body {
+    height: 974px;
+    position: relative;
+    margin: 0;
+}
 .wrapper {
     width: 800px;
     height: 600px;
     position: relative;
     background-image: url(img/background.png);
     margin: auto;
+    top: 187px;
 }
 .widget {
     width: 615px;
